@@ -1,4 +1,5 @@
 import Header from "./components/header";
+import "./global.css"
 import { Post } from "./Post";
 
 function App() {
