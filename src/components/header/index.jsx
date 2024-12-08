@@ -1,9 +1,9 @@
-import styles from './index.module.css'
+import styles from "./index.module.css";
 
-export default function Header() {
+export const Header = () => {
   return (
     <header className={styles.header}>
       <strong>Ignite Feed</strong>
     </header>
   );
-}
+};
